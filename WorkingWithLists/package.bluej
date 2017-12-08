@@ -2,10 +2,10 @@
 dependency1.from=People
 dependency1.to=Person
 dependency1.type=UsesDependency
-editor.fx.0.height=735
+editor.fx.0.height=965
 editor.fx.0.width=813
 editor.fx.0.x=343
-editor.fx.0.y=75
+editor.fx.0.y=0
 objectbench.height=94
 objectbench.width=763
 package.divider.horizontal=0.6

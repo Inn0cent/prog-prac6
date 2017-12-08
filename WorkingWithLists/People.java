@@ -11,7 +11,7 @@ public class People
 {
     
     private ArrayList<Person> persons;
-    private Person[] tempArray = {new Person("Sophie Mcfarland", 18, false), new Person("Charlie Knottenbelt", 20, true), new Person("Julian Goh", 17, true), new Person("Dom White", 20, true)};
+    private Person[] tempArray = {new Person("Sophie Mcfarland", 18, false), new Person("Charlie Knottenbelt", 19, true), new Person("Julian Goh", 17, true), new Person("Dom White", 20, true)};
     
     public People()
     {
@@ -53,7 +53,7 @@ public class People
     }
     
     public double avgAge(){
-        return totalAge()/persons.size();
+        return (totalAge()*1.0)/persons.size();
     }
     
     public double stdevAge(){
