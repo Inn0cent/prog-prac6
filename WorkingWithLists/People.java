@@ -92,6 +92,7 @@ public class People
         for (Person person : persons){
             if (highest < person.getAge()){
                 highest = person.getAge();
+                names.clear();
             }
             if(highest == person.getAge()){
                 names.add(person);
